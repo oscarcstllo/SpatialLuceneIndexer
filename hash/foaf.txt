@@ -1,0 +1,1 @@
+#noserub prefers #microformats #foaf, easier implement php  

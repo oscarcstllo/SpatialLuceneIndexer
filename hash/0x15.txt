@@ -1,0 +1,1 @@
+@startupcomix: #0x15 - pc load letter  

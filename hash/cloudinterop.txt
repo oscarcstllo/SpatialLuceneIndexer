@@ -1,0 +1,1 @@
+rt @ruv: investigating rfd xmpp unified cloud interface specification. #cloudinterop  

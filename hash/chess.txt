@@ -1,0 +1,1 @@
+chess rule: opponent legal moves check, it's stalemate, draw (tie) #chess  

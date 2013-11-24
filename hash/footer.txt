@@ -1,0 +1,1 @@
+#footer {padding-bottom:30px;} (or right)...firebug helped  

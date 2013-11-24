@@ -171,7 +171,7 @@ public class createVector {
 		//Integer[][] wVectors;
 		int count = 1;
 		String num;
-		String reg = "(\\d+)?[\\.;,?!()'\":-_$%`&-\\/#]+";
+		String reg = "(\\d+)?[\\.;,?!()'\":-_$%`&-\\/]+";
 		String apos = "(')([a-z])";
 		String aps = "([A-Za-z]+)(')([a-z])";
 		String url = "https?.*$";
@@ -179,9 +179,7 @@ public class createVector {
 
 		for(String line: tweet_text) {
 			String smallLine = line.toLowerCase();
-			//.replaceAll("[^a-zA-Z@]", " ")
 			String filtered = smallLine.replaceAll(reg," ").replaceAll(aps,"$1").replaceAll(mention, "").replaceAll(url, " ");
-			//System.out.println(filtered);
 			String[] st = filtered.split("\\s+");
 			try {
 				File fil = new File("smaller_vocab.txt");
